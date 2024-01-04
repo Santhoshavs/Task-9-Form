@@ -1,0 +1,64 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(158, 242, 135);
+    margin: 50px;
+  }
+
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: rgb(24, 221, 235);
+    padding: 20px;
+    border-radius: 20px;
+ }
+
+  label {
+    display: flex;
+    margin-bottom: 8px;
+  }
+
+  input[type="text"],
+  textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+  }
+
+  input[type="radio"],
+  input[type="checkbox"] {
+    margin-right: 5px;
+  }
+
+  button {
+    background-color: rgb(238, 35, 35);
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+  }
+
+  th, td {
+    border: 1px solid;
+    padding: 8px;
+    text-align: left;
+  }
+
+  th {
+    background-color:rgb(42, 66, 202);
+    color: #f9f9f9;
+  }
+  h1{
+text-align: center;
+color: rgb(31, 34, 231);
+  }
+  p{
+    color:  rgb(31, 34, 231);
+  }
